@@ -1,0 +1,55 @@
+/* Body */
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+/* Card */
+main div.card {
+    width: 450px;
+    height: 250px;
+    background-image: url(./images/backgorund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Noto Sans", sans-serif;
+    text-shadow: 0.5px 0.5px 10px blueviolet;
+    padding: 10px 15px 10px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Header */
+main div h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    
+}
+
+p {
+    top: 50%;
+    bottom: 50%;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    color: white;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+    main div.card {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+}
